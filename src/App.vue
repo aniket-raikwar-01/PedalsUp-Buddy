@@ -1,15 +1,17 @@
 <template>
-  <HomePage />
+  <ContactUsPageVue />
 </template>
 
 <script>
-import HomePage from './pages/HomePage/HomePage.vue'
+// import HomePage from './pages/HomePage/HomePage.vue'
+import ContactUsPageVue from './pages/ContactUs/ContactUsPage.vue'
 
 
 export default {
   name: 'App',
   components: {
-    HomePage,
+    // HomePage,
+    ContactUsPageVue
   }
 }
 </script>
